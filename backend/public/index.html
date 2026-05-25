@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SEO Mentor — Grow Your Organic Traffic</title>
+  <meta name="description" content="SEO Mentor helps businesses rank higher, attract quality traffic, and turn visitors into customers." />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --purple: #7c3aed;
+      --purple-light: #ede9fe;
+      --dark: #0f172a;
+      --gray: #64748b;
+      --light: #f8fafc;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: var(--dark);
+      background: #fff;
+      line-height: 1.6;
+    }
+
+    /* NAV */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.25rem 5%;
+      border-bottom: 1px solid #e2e8f0;
+      position: sticky;
+      top: 0;
+      background: #fff;
+      z-index: 100;
+    }
+    .logo { font-weight: 800; font-size: 1.25rem; color: var(--purple); letter-spacing: -0.5px; }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--gray); font-size: 0.95rem; font-weight: 500; }
+    .nav-links a:hover { color: var(--purple); }
+    .nav-cta {
+      background: var(--purple);
+      color: #fff;
+      padding: 0.6rem 1.4rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+
+    /* HERO */
+    .hero {
+      text-align: center;
+      padding: 6rem 5% 5rem;
+      background: linear-gradient(135deg, #faf5ff 0%, #eff6ff 100%);
+    }
+    .badge {
+      display: inline-block;
+      background: var(--purple-light);
+      color: var(--purple);
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 0.35rem 1rem;
+      border-radius: 20px;
+      margin-bottom: 1.5rem;
+    }
+    h1 {
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      font-weight: 900;
+      line-height: 1.15;
+      max-width: 800px;
+      margin: 0 auto 1.5rem;
+      letter-spacing: -1px;
+    }
+    h1 span { color: var(--purple); }
+    .hero-sub {
+      font-size: 1.15rem;
+      color: var(--gray);
+      max-width: 560px;
+      margin: 0 auto 2.5rem;
+    }
+    .hero-actions { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+    .btn-primary {
+      background: var(--purple);
+      color: #fff;
+      padding: 0.85rem 2rem;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1rem;
+    }
+    .btn-secondary {
+      border: 2px solid #e2e8f0;
+      color: var(--dark);
+      padding: 0.85rem 2rem;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+    .btn-primary:hover { background: #6d28d9; }
+    .btn-secondary:hover { border-color: var(--purple); color: var(--purple); }
+
+    /* STATS */
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 3rem;
+      padding: 3rem 5%;
+      border-bottom: 1px solid #e2e8f0;
+      flex-wrap: wrap;
+    }
+    .stat { text-align: center; }
+    .stat-number { font-size: 2.2rem; font-weight: 900; color: var(--purple); }
+    .stat-label { font-size: 0.9rem; color: var(--gray); margin-top: 0.25rem; }
+
+    /* SERVICES */
+    .section { padding: 5rem 5%; }
+    .section-label {
+      text-align: center;
+      color: var(--purple);
+      font-weight: 700;
+      font-size: 0.85rem;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-bottom: 0.75rem;
+    }
+    h2 {
+      text-align: center;
+      font-size: clamp(1.6rem, 3vw, 2.4rem);
+      font-weight: 800;
+      margin-bottom: 0.75rem;
+      letter-spacing: -0.5px;
+    }
+    .section-sub {
+      text-align: center;
+      color: var(--gray);
+      max-width: 540px;
+      margin: 0 auto 3rem;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .card {
+      border: 1px solid #e2e8f0;
+      border-radius: 14px;
+      padding: 2rem;
+      transition: box-shadow 0.2s, border-color 0.2s;
+    }
+    .card:hover { box-shadow: 0 8px 30px rgba(124,58,237,.1); border-color: var(--purple); }
+    .card-icon { font-size: 2rem; margin-bottom: 1rem; }
+    .card h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem; }
+    .card p { color: var(--gray); font-size: 0.95rem; }
+
+    /* PROCESS */
+    .process { background: var(--light); }
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .step { text-align: center; }
+    .step-num {
+      width: 48px; height: 48px;
+      background: var(--purple);
+      color: #fff;
+      border-radius: 50%;
+      font-weight: 800;
+      font-size: 1.1rem;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 1rem;
+    }
+    .step h3 { font-weight: 700; margin-bottom: 0.4rem; }
+    .step p { color: var(--gray); font-size: 0.9rem; }
+
+    /* TESTIMONIALS */
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .testimonial {
+      border: 1px solid #e2e8f0;
+      border-radius: 14px;
+      padding: 1.75rem;
+    }
+    .stars { color: #f59e0b; font-size: 1rem; margin-bottom: 0.75rem; }
+    .testimonial p { color: var(--gray); font-size: 0.95rem; margin-bottom: 1rem; font-style: italic; }
+    .author { font-weight: 700; font-size: 0.9rem; }
+    .author span { color: var(--gray); font-weight: 400; }
+
+    /* CTA */
+    .cta-section {
+      background: var(--purple);
+      color: #fff;
+      text-align: center;
+      padding: 5rem 5%;
+    }
+    .cta-section h2 { color: #fff; margin-bottom: 1rem; }
+    .cta-section p { color: rgba(255,255,255,0.8); max-width: 500px; margin: 0 auto 2rem; }
+    .btn-white {
+      background: #fff;
+      color: var(--purple);
+      padding: 0.9rem 2.2rem;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1rem;
+      display: inline-block;
+    }
+    .btn-white:hover { background: #f1f5f9; }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      padding: 2rem 5%;
+      color: var(--gray);
+      font-size: 0.85rem;
+      border-top: 1px solid #e2e8f0;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">SEO Mentor</div>
+    <ul class="nav-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#testimonials">Results</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Get a Free Audit</a>
+  </nav>
+
+  <section class="hero">
+    <div class="badge">SEO Consulting</div>
+    <h1>Rank Higher.<br />Grow <span>Organic Traffic</span>.<br />Get More Clients.</h1>
+    <p class="hero-sub">I help businesses dominate search results with data-driven SEO strategies that deliver lasting, compounding results.</p>
+    <div class="hero-actions">
+      <a href="#contact" class="btn-primary">Get a Free SEO Audit</a>
+      <a href="#process" class="btn-secondary">See How It Works</a>
+    </div>
+  </section>
+
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-number">120+</div>
+      <div class="stat-label">Clients Served</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">3.8M</div>
+      <div class="stat-label">Organic Clicks Generated</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">94%</div>
+      <div class="stat-label">Client Retention Rate</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">8yr</div>
+      <div class="stat-label">Years of Experience</div>
+    </div>
+  </div>
+
+  <section class="section" id="services">
+    <div class="section-label">What I Do</div>
+    <h2>SEO Services That Move the Needle</h2>
+    <p class="section-sub">Every strategy is custom-built around your business goals, industry, and competition.</p>
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon">🔍</div>
+        <h3>Technical SEO Audit</h3>
+        <p>Uncover and fix crawl errors, site speed issues, Core Web Vitals, and indexing problems holding your site back.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📝</div>
+        <h3>Content Strategy</h3>
+        <p>Keyword research, content gap analysis, and topic clusters that attract your ideal audience at every stage of the funnel.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🔗</div>
+        <h3>Link Building</h3>
+        <p>White-hat authority building through digital PR, HARO, and editorial outreach — no spam, no shortcuts.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📍</div>
+        <h3>Local SEO</h3>
+        <p>Dominate Google Maps and local search results so nearby customers find you before they find your competitors.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📊</div>
+        <h3>SEO Reporting</h3>
+        <p>Clear monthly reports showing rankings, traffic, conversions, and ROI — no vanity metrics, just what matters.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🚀</div>
+        <h3>Programmatic SEO</h3>
+        <p>Scale your content with data-driven, template-based pages that target thousands of long-tail keywords automatically.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section process" id="process">
+    <div class="section-label">How It Works</div>
+    <h2>A Clear Path to Page One</h2>
+    <p class="section-sub">A proven 4-step process that takes you from audit to results in 90 days.</p>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <h3>Audit & Discover</h3>
+        <p>Deep dive into your site, competitors, and keyword landscape to find the biggest opportunities.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <h3>Strategy & Roadmap</h3>
+        <p>A prioritized 90-day action plan tailored to your goals, budget, and team capacity.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h3>Execute & Optimize</h3>
+        <p>Implement technical fixes, publish content, and build authority — week by week, sprint by sprint.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <h3>Measure & Scale</h3>
+        <p>Track results, double down on what works, and systematically grow your organic presence.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="testimonials">
+    <div class="section-label">Client Results</div>
+    <h2>Real Businesses, Real Growth</h2>
+    <p class="section-sub">Here's what clients say after working together.</p>
+    <div class="testimonials-grid">
+      <div class="testimonial">
+        <div class="stars">★★★★★</div>
+        <p>"Within 6 months our organic traffic tripled. We went from page 3 to ranking #1 for our most competitive keyword."</p>
+        <div class="author">Maria L. <span>— E-commerce Founder</span></div>
+      </div>
+      <div class="testimonial">
+        <div class="stars">★★★★★</div>
+        <p>"The technical audit alone was worth every penny. We had crawl issues we didn't even know existed. Fixed them and saw results in weeks."</p>
+        <div class="author">James T. <span>— SaaS Marketing Director</span></div>
+      </div>
+      <div class="testimonial">
+        <div class="stars">★★★★★</div>
+        <p>"Our local business went from invisible to the #1 map result in our city. Calls and walk-ins have doubled since we started."</p>
+        <div class="author">Sofia R. <span>— Local Business Owner</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section" id="contact">
+    <h2>Ready to Grow Your Organic Traffic?</h2>
+    <p>Get a free, no-obligation SEO audit and discover exactly what's holding your site back.</p>
+    <a href="mailto:hello@seomentorpro.com" class="btn-white">Claim Your Free Audit →</a>
+  </section>
+
+  <footer>
+    <p>© 2026 SEO Mentor. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
