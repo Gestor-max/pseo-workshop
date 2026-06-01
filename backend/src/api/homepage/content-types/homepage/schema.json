@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepage",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "heroBadge": { "type": "string" },
+    "heroTitle": { "type": "string", "required": true },
+    "heroSubtitle": { "type": "text" },
+    "heroCta1Text": { "type": "string" },
+    "heroCta1Url": { "type": "string" },
+    "heroCta2Text": { "type": "string" },
+    "heroCta2Url": { "type": "string" },
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.stat"
+    },
+    "featuresTitle": { "type": "string" },
+    "featuresSubtitle": { "type": "text" },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.feature"
+    },
+    "stepsTitle": { "type": "string" },
+    "stepsSubtitle": { "type": "text" },
+    "steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.step"
+    },
+    "whoTitle": { "type": "string" },
+    "whoItems": { "type": "json" },
+    "testimonialsTitle": { "type": "string" },
+    "testimonials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.testimonial"
+    },
+    "ctaTitle": { "type": "string" },
+    "ctaSubtitle": { "type": "text" },
+    "ctaButtonText": { "type": "string" },
+    "ctaButtonUrl": { "type": "string" }
+  }
+}
