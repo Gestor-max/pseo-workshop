@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_page",
+  "info": {
+    "singularName": "contact-page",
+    "pluralName": "contact-pages",
+    "displayName": "Contact Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": { "type": "string", "required": true },
+    "subtitle": { "type": "text" },
+    "email": { "type": "email" },
+    "formspreeId": { "type": "string" },
+    "showForm": { "type": "boolean", "default": true },
+    "namePlaceholder": { "type": "string" },
+    "emailPlaceholder": { "type": "string" },
+    "messagePlaceholder": { "type": "string" },
+    "submitText": { "type": "string" }
+  }
+}

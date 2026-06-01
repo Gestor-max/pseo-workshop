@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "privacy_page",
+  "info": {
+    "singularName": "privacy-page",
+    "pluralName": "privacy-pages",
+    "displayName": "Privacy Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": { "type": "string", "required": true },
+    "intro": { "type": "text" },
+    "content": { "type": "richtext" },
+    "lastUpdated": { "type": "date" }
+  }
+}
