@@ -1,7 +1,7 @@
-import Script from "next/script";
+﻿import Script from "next/script";
 
 export const metadata = {
-  title: "Content Feeder — The 3-Step Process Every Website Needs",
+  title: "Content Feeder: The 3-Step Process Every Website Needs",
   description:
     "Most websites struggle to scale content consistently. Here's the 3-step Content Feeder process: Planning, Deployment, and Technical Follow-up.",
 };
@@ -19,7 +19,7 @@ export default function ContentFeederPage() {
           The Process Every Website Struggles With
         </h1>
         <p className="text-xl text-ink-500 leading-relaxed max-w-2xl mx-auto">
-          Publishing one article is easy. Building a repeatable system that plans, deploys, and tracks content at scale — that's where most websites fall short.
+          Publishing one article is easy. Building a repeatable system that plans, deploys, and tracks content at scale is where most websites fall short.
         </p>
       </section>
 
@@ -34,17 +34,17 @@ export default function ContentFeederPage() {
           <div>
             <h2 className="font-display text-2xl font-bold text-ink-950 mb-3">Planning</h2>
             <p className="text-ink-500 leading-relaxed mb-6">
-              Before writing a single word, you need a clear content plan that matches your website's goals. The format you choose drives everything — your workflow, your publishing cadence, and the tools you'll need.
+              Before writing a single word, you need a clear content plan that matches your website's goals. The format you choose drives everything - your workflow, your publishing cadence, and the tools you'll need.
             </p>
 
             <h3 className="font-display text-lg font-bold text-ink-900 mb-2">Breaking News</h3>
             <p className="text-ink-500 leading-relaxed mb-6">
-              Breaking news content is built around speed. The goal is to be one of the first sites to publish on a trending topic so Google indexes you early and you capture traffic before competition stacks up. This format requires monitoring tools (Google Alerts, RSS feeds, social signals) and a streamlined publishing process where an article can go from idea to live in under 30 minutes. It works best for niches where news cycles are frequent — finance, tech, sports, local events. The downside: it demands consistency and has a short shelf life.
+              Breaking news content is built around speed. The goal is to be one of the first sites to publish on a trending topic so Google indexes you early and you capture traffic before competition stacks up. This format requires monitoring tools (Google Alerts, RSS feeds, social signals) and a streamlined publishing process where an article can go from idea to live in under 30 minutes. It works best for niches where news cycles are frequent - finance, tech, sports, local events. The downside: it demands consistency and has a short shelf life.
             </p>
 
             <h3 className="font-display text-lg font-bold text-ink-900 mb-2">Topical Maps</h3>
             <p className="text-ink-500 leading-relaxed mb-6">
-              A topical map is a structured content plan that covers an entire subject area — not just individual keywords, but the full network of topics, subtopics, and supporting articles that signal authority to Google. Instead of publishing random articles, you map out every angle of your niche and fill it systematically. This approach builds topical authority faster than chasing isolated keywords because Google rewards sites that demonstrate deep, comprehensive expertise. It requires upfront research to identify content clusters, pillar pages, and the relationships between them — but once the map is built, your publishing queue is essentially planned for months.
+              A topical map is a structured content plan that covers an entire subject area - not just individual keywords, but the full network of topics, subtopics, and supporting articles that signal authority to Google. Instead of publishing random articles, you map out every angle of your niche and fill it systematically. This approach builds topical authority faster than chasing isolated keywords because Google rewards sites that demonstrate deep, comprehensive expertise. It requires upfront research to identify content clusters, pillar pages, and the relationships between them - but once the map is built, your publishing queue is essentially planned for months.
             </p>
 
             <p className="text-ink-500 leading-relaxed">
@@ -61,7 +61,7 @@ export default function ContentFeederPage() {
           <div>
             <h2 className="font-display text-2xl font-bold text-ink-950 mb-3">Deployment</h2>
             <p className="text-ink-500 leading-relaxed mb-4">
-              This is where most website owners hit a wall. Posting one article manually is simple — but what happens when you need to publish 50, 100, or 500? Without a deployment system in place, content piles up as drafts or gets published inconsistently with no tracking.
+              This is where most website owners hit a wall. Posting one article manually is simple - but what happens when you need to publish 50, 100, or 500? Without a deployment system in place, content piles up as drafts or gets published inconsistently with no tracking.
             </p>
             <p className="text-ink-500 leading-relaxed">
               A real deployment plan covers scheduling, bulk publishing, version control, and a tracking layer so you always know what went live, when, and why.
@@ -77,10 +77,10 @@ export default function ContentFeederPage() {
           <div>
             <h2 className="font-display text-2xl font-bold text-ink-950 mb-3">Technical Follow-up</h2>
             <p className="text-ink-500 leading-relaxed mb-4">
-              Deployment done — but is Google actually finding your content? Most websites skip this step entirely. Content goes live and nobody checks whether it gets indexed. Pages sit invisible in the dark for weeks or months.
+              Deployment done - but is Google actually finding your content? Most websites skip this step entirely. Content goes live and nobody checks whether it gets indexed. Pages sit invisible in the dark for weeks or months.
             </p>
             <p className="text-ink-500 leading-relaxed">
-              Technical follow-up means actively monitoring indexing status through Search Console, fixing crawl issues, submitting sitemaps, and applying the right strategies — internal linking, fetch-and-render, IndexNow — to accelerate discovery and keep your content working.
+              Technical follow-up means actively monitoring indexing status through Search Console, fixing crawl issues, submitting sitemaps, and applying the right strategies - internal linking, fetch-and-render, IndexNow - to accelerate discovery and keep your content working.
             </p>
           </div>
         </div>
@@ -111,3 +111,4 @@ export default function ContentFeederPage() {
     </div>
   );
 }
+
