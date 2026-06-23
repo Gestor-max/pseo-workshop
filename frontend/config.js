@@ -4,7 +4,7 @@ module.exports = {
   // ============================================
 
   // Site basics
-  siteName: "BestCoworkingSpaces",
+  siteName: "SEO Mentor",
   domain: "bestcoworkingspaces.com",
   niche: "coworking spaces",
   nicheDescription: "A directory of the best coworking spaces around the world",
