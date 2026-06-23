@@ -63,8 +63,11 @@ export default function ContentFeederPage() {
             <p className="text-ink-500 leading-relaxed mb-4">
               This is where most website owners hit a wall. Posting one article manually is simple - but what happens when you need to publish 50, 100, or 500? Without a deployment system in place, content piles up as drafts or gets published inconsistently with no tracking.
             </p>
-            <p className="text-ink-500 leading-relaxed">
+            <p className="text-ink-500 leading-relaxed mb-4">
               A real deployment plan covers scheduling, bulk publishing, version control, and a tracking layer so you always know what went live, when, and why.
+            </p>
+            <p className="text-ink-500 leading-relaxed">
+              Scheduling articles upfront sounds organized in theory, but in practice it creates more problems than it solves. Hosting goes down, websites get hacked, plugins break, content gets outdated before it even publishes. When you have 200 articles queued and your site goes offline for 3 days, your entire deployment calendar falls apart and you lose visibility on what actually went live. That is why this solution is built around posting on demand. You publish when you are ready, with full control over what goes out and when, without relying on a fragile automated queue that can fail silently.
             </p>
           </div>
         </div>
