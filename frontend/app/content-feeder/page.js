@@ -38,8 +38,13 @@ export default function ContentFeederPage() {
             </p>
 
             <h3 className="font-display text-lg font-bold text-ink-900 mb-2">Breaking News</h3>
-            <p className="text-ink-500 leading-relaxed mb-4">
+            <p className="text-ink-500 leading-relaxed mb-6">
               Breaking news content is built around speed. The goal is to be one of the first sites to publish on a trending topic so Google indexes you early and you capture traffic before competition stacks up. This format requires monitoring tools (Google Alerts, RSS feeds, social signals) and a streamlined publishing process where an article can go from idea to live in under 30 minutes. It works best for niches where news cycles are frequent — finance, tech, sports, local events. The downside: it demands consistency and has a short shelf life.
+            </p>
+
+            <h3 className="font-display text-lg font-bold text-ink-900 mb-2">Topical Maps</h3>
+            <p className="text-ink-500 leading-relaxed mb-6">
+              A topical map is a structured content plan that covers an entire subject area — not just individual keywords, but the full network of topics, subtopics, and supporting articles that signal authority to Google. Instead of publishing random articles, you map out every angle of your niche and fill it systematically. This approach builds topical authority faster than chasing isolated keywords because Google rewards sites that demonstrate deep, comprehensive expertise. It requires upfront research to identify content clusters, pillar pages, and the relationships between them — but once the map is built, your publishing queue is essentially planned for months.
             </p>
 
             <p className="text-ink-500 leading-relaxed">
