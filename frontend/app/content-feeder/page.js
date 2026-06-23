@@ -33,6 +33,17 @@ export default function ContentFeederPage() {
           </div>
           <div>
             <h2 className="font-display text-2xl font-bold text-ink-950 mb-3">Planning</h2>
+            <div style={{ padding: "56.25% 0 0 0", position: "relative" }} className="mb-6">
+              <iframe
+                src="https://player.vimeo.com/video/1203720788?h=63363f6444&badge=0&autopause=0&player_id=0&app_id=58479"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%" }}
+                title="1. Planning Stage - Content Feeder"
+              />
+            </div>
+            <Script src="https://player.vimeo.com/api/player.js" strategy="afterInteractive" />
             <p className="text-ink-500 leading-relaxed mb-6">
               Before writing a single word, you need a clear content plan that matches your website's goals. The format you choose drives everything - your workflow, your publishing cadence, and the tools you'll need.
             </p>
