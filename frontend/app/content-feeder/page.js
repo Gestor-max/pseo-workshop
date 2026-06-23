@@ -71,6 +71,16 @@ export default function ContentFeederPage() {
           </div>
           <div>
             <h2 className="font-display text-2xl font-bold text-ink-950 mb-3">Deployment</h2>
+            <div style={{ padding: "56.25% 0 0 0", position: "relative" }} className="mb-6">
+              <iframe
+                src="https://player.vimeo.com/video/1203846175?h=638753e3b0&badge=0&autopause=0&player_id=0&app_id=58479"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%" }}
+                title="2. Deployment - Content Feeder"
+              />
+            </div>
             <p className="text-ink-500 leading-relaxed mb-4">
               This is where most website owners hit a wall. Posting one article manually is simple - but what happens when you need to publish 50, 100, or 500? Without a deployment system in place, content piles up as drafts or gets published inconsistently with no tracking.
             </p>
