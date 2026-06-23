@@ -82,8 +82,20 @@ export default function ContentFeederPage() {
             <p className="text-ink-500 leading-relaxed mb-4">
               Deployment done - but is Google actually finding your content? Most websites skip this step entirely. Content goes live and nobody checks whether it gets indexed. Pages sit invisible in the dark for weeks or months.
             </p>
-            <p className="text-ink-500 leading-relaxed">
+            <p className="text-ink-500 leading-relaxed mb-4">
               Technical follow-up means actively monitoring indexing status through Search Console, fixing crawl issues, submitting sitemaps, and applying the right strategies - internal linking, fetch-and-render, IndexNow - to accelerate discovery and keep your content working.
+            </p>
+            <p className="text-ink-500 leading-relaxed">
+              The baseline expectation is simple: a healthy website should get indexed on its own. Google states in its own{" "}
+              <a
+                href="https://developers.google.com/search/docs/fundamentals/get-on-google"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-accent-600 underline hover:text-accent-700"
+              >
+                Search Central documentation
+              </a>{" "}
+              that most sites are found automatically through crawling, and that manual submission is rarely necessary if your site structure and internal linking are solid. Third-party indexers exist, but they are a last resort - a sign that something deeper is broken, not a routine step in a content workflow. Fix the technical foundation first and Google will do the rest.
             </p>
           </div>
         </div>
