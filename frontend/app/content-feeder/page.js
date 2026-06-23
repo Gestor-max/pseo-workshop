@@ -33,9 +33,15 @@ export default function ContentFeederPage() {
           </div>
           <div>
             <h2 className="font-display text-2xl font-bold text-ink-950 mb-3">Planning</h2>
-            <p className="text-ink-500 leading-relaxed mb-4">
-              Before writing a single word, you need a clear content plan that matches your website's goals. The format matters: are you publishing breaking news, in-depth guides, or AI-assisted rewrites of existing content?
+            <p className="text-ink-500 leading-relaxed mb-6">
+              Before writing a single word, you need a clear content plan that matches your website's goals. The format you choose drives everything — your workflow, your publishing cadence, and the tools you'll need.
             </p>
+
+            <h3 className="font-display text-lg font-bold text-ink-900 mb-2">Breaking News</h3>
+            <p className="text-ink-500 leading-relaxed mb-4">
+              Breaking news content is built around speed. The goal is to be one of the first sites to publish on a trending topic so Google indexes you early and you capture traffic before competition stacks up. This format requires monitoring tools (Google Alerts, RSS feeds, social signals) and a streamlined publishing process where an article can go from idea to live in under 30 minutes. It works best for niches where news cycles are frequent — finance, tech, sports, local events. The downside: it demands consistency and has a short shelf life.
+            </p>
+
             <p className="text-ink-500 leading-relaxed">
               Each format has its own workflow, cadence, and toolset. Getting this wrong wastes time and produces content that never ranks. Getting it right turns your site into a content machine.
             </p>
