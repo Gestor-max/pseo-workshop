@@ -5,66 +5,63 @@ module.exports = {
 
   // Site basics
   siteName: "SEO Mentor",
-  domain: "bestcoworkingspaces.com",
-  niche: "coworking spaces",
-  nicheDescription: "A directory of the best coworking spaces around the world",
+  domain: "seomentorpro.com",
+  niche: "SEO mentorship programs",
+  nicheDescription: "Learn SEO from experts with structured mentorship programs designed to grow your organic traffic",
 
-  // Primary modifiers — the main variable (cities, categories, etc.)
-  // These generate your main pages: "Best coworking spaces in [modifier]"
+  // Primary modifiers — the main variable (audience types, etc.)
   primaryModifiers: [
-    "New York",
-    "London",
-    "Berlin",
-    "Tokyo",
-    "San Francisco",
-    "Austin",
-    "Lisbon",
-    "Barcelona",
-    "Amsterdam",
-    "Toronto",
+    "beginners",
+    "freelancers",
+    "agency owners",
+    "e-commerce brands",
+    "B2B companies",
+    "content creators",
+    "startups",
+    "local businesses",
+    "bloggers",
+    "SaaS companies",
   ],
 
   // Secondary modifiers — subcategories or filters
-  // These add depth: "Best coworking spaces for [modifier]"
   secondaryModifiers: [
-    "for freelancers",
-    "with meeting rooms",
-    "for startups",
-    "with private offices",
-    "on a budget",
+    "for technical SEO",
+    "for link building",
+    "for content strategy",
+    "for local SEO",
+    "for programmatic SEO",
   ],
 
   // Which content types to generate
   contentTypes: {
-    directoryItem: true,   // Individual reviews (e.g. "WeWork Review")
-    listicle: true,        // Roundups (e.g. "Best Coworking Spaces in Berlin")
-    comparison: true,      // Versus (e.g. "WeWork vs Regus")
-    blog: true,            // Guides (e.g. "How to Choose a Coworking Space")
+    directoryItem: true,   // Individual program reviews (e.g. "Authority Hacker Pro Review")
+    listicle: true,        // Roundups (e.g. "Best SEO Mentorship Programs for Beginners")
+    comparison: true,      // Versus (e.g. "Authority Hacker vs Gotch SEO")
+    blog: true,            // Guides (e.g. "How to Choose an SEO Mentor")
   },
 
-  // Example items for directory entries (specific things to review)
-  // These are the actual items in your niche
+  // Example items for directory entries
   directoryItems: [
-    "WeWork",
-    "Regus",
-    "Spaces",
-    "Industrious",
-    "Convene",
+    "Authority Hacker Pro",
+    "Gotch SEO Academy",
+    "SEO That Works",
+    "The Blueprint Training",
+    "Surfer SEO Course",
   ],
 
-  // Blog topic ideas (educational content)
+  // Blog topic ideas
   blogTopics: [
-    "How to Choose the Right Coworking Space",
-    "Remote Work Productivity Tips",
-    "Coworking Space Etiquette Guide",
-    "Benefits of Coworking vs Working from Home",
-    "How to Network at a Coworking Space",
+    "How to Choose the Right SEO Mentorship Program",
+    "SEO Mentorship vs Self-Learning: What Works Faster",
+    "How Long Does It Take to See SEO Results",
+    "The ROI of Investing in an SEO Mentor",
+    "Technical SEO Checklist for Beginners",
   ],
 
   // Design
   colors: {
-    primary: "#ef4444",
-    accent: "#f97316",
+    primary: "#7c3aed",
+    accent: "#6d28d9",
   },
 
   // Analytics (add your GA4 measurement ID)
