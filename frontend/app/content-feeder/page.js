@@ -48,10 +48,21 @@ export default function ContentFeederPage() {
               Before writing a single word, you need a clear content plan that matches your website's goals. The format you choose drives everything - your workflow, your publishing cadence, and the tools you'll need.
             </p>
 
-            <h3 className="font-display text-lg font-bold text-ink-900 mb-2">Breaking News</h3>
-            <p className="text-ink-500 leading-relaxed mb-6">
-              Breaking news content is built around speed. The goal is to be one of the first sites to publish on a trending topic so Google indexes you early and you capture traffic before competition stacks up. This format requires monitoring tools (Google Alerts, RSS feeds, social signals) and a streamlined publishing process where an article can go from idea to live in under 30 minutes. It works best for niches where news cycles are frequent - finance, tech, sports, local events. The downside: it demands consistency and has a short shelf life.
-            </p>
+            <div className="bg-accent-50 border-l-4 border-accent-600 rounded-xl p-6 mb-6">
+              <h3 className="font-display text-xl font-bold text-accent-700 mb-3">Breaking News</h3>
+              <p className="text-ink-600 leading-relaxed mb-4">
+                Breaking news is the highest-leverage content format for websites that want fast organic traffic. The goal is simple: be one of the first to publish on a trending topic, get indexed before the competition piles in, and capture clicks while the story is hot.
+              </p>
+              <p className="text-ink-600 leading-relaxed mb-4">
+                This format works because Google rewards freshness. When a topic spikes, Google actively looks for new pages covering it - and early publishers get disproportionate visibility. A single well-timed article can drive thousands of visits in 24 hours that a standard evergreen piece would take months to accumulate.
+              </p>
+              <p className="text-ink-600 leading-relaxed mb-4">
+                Executing it requires the right monitoring setup: Google Alerts, RSS feeds, social signals, and industry-specific sources running in the background so you spot stories early. From there, your publishing process needs to be lean enough that an article goes from idea to live in under 30 minutes. The content does not need to be long - it needs to be accurate, timely, and indexed fast.
+              </p>
+              <p className="text-ink-600 leading-relaxed">
+                It works best in niches with frequent news cycles - finance, tech, sports, legal, local events, entertainment. The tradeoff is that it demands consistency and the traffic has a short shelf life. But for sites that get the system right, it becomes a reliable daily traffic engine that compounds over time as domain authority builds.
+              </p>
+            </div>
 
             <h3 className="font-display text-lg font-bold text-ink-900 mb-2">Topical Maps</h3>
             <p className="text-ink-500 leading-relaxed mb-6">
