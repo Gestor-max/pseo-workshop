@@ -59,8 +59,20 @@ export default function ContentFeederPage() {
               <p className="text-ink-600 leading-relaxed mb-4">
                 Executing it requires the right monitoring setup: Google Alerts, RSS feeds, social signals, and industry-specific sources running in the background so you spot stories early. From there, your publishing process needs to be lean enough that an article goes from idea to live in under 30 minutes. The content does not need to be long - it needs to be accurate, timely, and indexed fast.
               </p>
-              <p className="text-ink-600 leading-relaxed">
+              <p className="text-ink-600 leading-relaxed mb-4">
                 It works best in niches with frequent news cycles - finance, tech, sports, legal, local events, entertainment. The tradeoff is that it demands consistency and the traffic has a short shelf life. But for sites that get the system right, it becomes a reliable daily traffic engine that compounds over time as domain authority builds.
+              </p>
+              <p className="text-ink-600 leading-relaxed">
+                One major upside most site owners overlook: a consistent breaking news operation is one of the strongest paths to getting approved in{" "}
+                <a
+                  href="https://news.google.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-accent-600 underline hover:text-accent-700"
+                >
+                  Google News
+                </a>
+                . Google evaluates sites for News inclusion based on publishing frequency, content freshness, editorial standards, and topical focus. A site that publishes timely, accurate news articles consistently - with proper bylines, clear dates, and a defined niche - signals exactly what Google News looks for. Getting listed in Google News puts your articles in front of millions of readers directly inside the News tab and Discover feed, an entirely separate traffic source on top of organic search.
               </p>
             </div>
 
