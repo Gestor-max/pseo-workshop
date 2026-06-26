@@ -16,7 +16,7 @@ export default function ContentFeederPage() {
           Content Feeder
         </span>
         <h1 className="font-display text-4xl md:text-5xl font-bold text-ink-950 mb-6 leading-tight">
-          The Process Every Website Struggles With
+          Content Feeder DFY: The Process Every Website Struggles With
         </h1>
         <p className="text-xl text-ink-500 leading-relaxed max-w-2xl mx-auto">
           Publishing one article is easy. Building a repeatable system that plans, deploys, and tracks content at scale is where most websites fall short.
