@@ -37,6 +37,11 @@ export default async function sitemap() {
       priority: 1.0,
     },
     {
+      url: `${SITE_URL}/content-feeder`,
+      lastModified: new Date(),
+      priority: 0.8,
+    },
+    {
       url: `${SITE_URL}/privacy`,
       lastModified: new Date(),
       priority: 0.3,
