@@ -5,7 +5,7 @@ module.exports = {
 
   // Site basics
   siteName: "SEO Mentor",
-  domain: "seomentorpro.com",
+  domain: "www.seomentor.us.com",
   niche: "SEO mentorship programs",
   nicheDescription: "Learn SEO from experts with structured mentorship programs designed to grow your organic traffic",
 
