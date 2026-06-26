@@ -1,9 +1,9 @@
 ﻿import Script from "next/script";
 
 export const metadata = {
-  title: "Content Feeder: The 3-Step Process Every Website Needs",
+  title: "Content Feeder DFY: The 3-Step Process Every Website Needs",
   description:
-    "Most websites struggle to scale content consistently. Here's the 3-step Content Feeder process: Planning, Deployment, and Technical Follow-up.",
+    "Content Feeder DFY is a done-for-you system that solves the 3 challenges every website faces: Planning, Deployment, and Technical Follow-up. Stop guessing and start scaling.",
 };
 
 export default function ContentFeederPage() {
