@@ -125,7 +125,7 @@ export default function ContentFeederPage() {
             <h2 className="font-display text-2xl font-bold text-ink-950 mb-3">Technical Follow-up</h2>
             <div style={{ padding: "56.25% 0 0 0", position: "relative" }} className="mb-6">
               <iframe
-                src="https://player.vimeo.com/video/1203853963?h=dbf612adf8&badge=0&autopause=0&player_id=0&app_id=58479"
+                src="https://player.vimeo.com/video/1205008391?h=81591e011e&badge=0&autopause=0&player_id=0&app_id=58479"
                 frameBorder="0"
                 allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
                 referrerPolicy="strict-origin-when-cross-origin"
