@@ -67,7 +67,7 @@ const DEFAULTS = {
     { quote: "We now rank #1 for 40+ keywords in our niche. The ROI on this mentorship has been incredible.", name: "Sofia R.", role: "SaaS Marketing Director" },
   ],
   ctaTitle: "Ready to Grow Your Organic Traffic?",
-  ctaSubtitle: "Apply for the SEO Mentorship Program today. Limited spots available — we keep cohorts small to ensure quality guidance.",
+  ctaSubtitle: "Apply for the SEO Mentorship Program today. Spots are limited, so we keep cohorts small to ensure quality guidance.",
   ctaButtonText: "Apply Now — It's Free to Apply",
   ctaButtonUrl: "mailto:hello@seomentorpro.com",
 };

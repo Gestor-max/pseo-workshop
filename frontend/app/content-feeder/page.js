@@ -105,7 +105,7 @@ export default function ContentFeederPage() {
               />
             </div>
             <p className="text-ink-500 leading-relaxed mb-4">
-              This is where most website owners hit a wall. Posting one article manually is simple - but what happens when you need to publish 50, 100, or 500? Without a deployment system in place, content piles up as drafts or gets published inconsistently with no tracking.
+              This is where most website owners hit a wall. Posting one article manually is simple, but what happens when you need to publish 50, 100, or 500? Without a deployment system in place, content piles up as drafts or gets published inconsistently with no tracking.
             </p>
             <p className="text-ink-500 leading-relaxed mb-4">
               A real deployment plan covers scheduling, bulk publishing, version control, and a tracking layer so you always know what went live, when, and why.
@@ -134,7 +134,7 @@ export default function ContentFeederPage() {
               />
             </div>
             <p className="text-ink-500 leading-relaxed mb-4">
-              Deployment done - but is Google actually finding your content? Most websites skip this step entirely. Content goes live and nobody checks whether it gets indexed. Pages sit invisible in the dark for weeks or months.
+              Deployment is done, but is Google actually finding your content? Most websites skip this step entirely. Content goes live and nobody checks whether it gets indexed. Pages sit invisible for weeks or months.
             </p>
             <p className="text-ink-500 leading-relaxed mb-4">
               Technical follow-up means actively monitoring indexing status through Search Console, fixing crawl issues, submitting sitemaps, and applying the right strategies - internal linking, fetch-and-render, IndexNow - to accelerate discovery and keep your content working.
@@ -167,10 +167,10 @@ export default function ContentFeederPage() {
             Content Feeder DFY is built for two types of users.
           </p>
           <p className="text-ink-500 leading-relaxed mb-4">
-            The first is a <strong className="text-ink-700">Marketer with multiple projects</strong> who understands the value of consistent content but simply does not have the bandwidth to manage it across all their sites. They know what needs to happen — they just need someone to execute it.
+            The first is a <strong className="text-ink-700">Marketer with multiple projects</strong> who understands the value of consistent content but simply does not have the bandwidth to manage it across all their sites. They know what needs to happen; they just need someone to execute it.
           </p>
           <p className="text-ink-500 leading-relaxed">
-            The second is a <strong className="text-ink-700">Digital Marketing Agency Owner running a PBN</strong> who has already built the network but is struggling to keep it fed with fresh, relevant content. A network without consistent content loses authority fast — this service solves that problem directly.
+            The second is a <strong className="text-ink-700">Digital Marketing Agency Owner running a PBN</strong> who has already built the network but is struggling to keep it fed with fresh, relevant content. A network without consistent content loses authority fast. This service solves that problem directly.
           </p>
         </div>
       </section>
