@@ -156,6 +156,25 @@ export default function ContentFeederPage() {
 
       </section>
 
+      {/* FAQ */}
+      <section className="mb-16">
+        <div className="text-center mb-10">
+          <h2 className="font-display text-3xl font-bold text-ink-950 mb-3">Frequently Asked Questions</h2>
+        </div>
+        <div className="bg-white border border-brand-200 rounded-2xl p-8">
+          <h3 className="font-display text-xl font-bold text-ink-950 mb-4">Who is this service for?</h3>
+          <p className="text-ink-500 leading-relaxed mb-4">
+            Content Feeder DFY is built for two types of users.
+          </p>
+          <p className="text-ink-500 leading-relaxed mb-4">
+            The first is a <strong className="text-ink-700">Marketer with multiple projects</strong> who understands the value of consistent content but simply does not have the bandwidth to manage it across all their sites. They know what needs to happen — they just need someone to execute it.
+          </p>
+          <p className="text-ink-500 leading-relaxed">
+            The second is a <strong className="text-ink-700">Digital Marketing Agency Owner running a PBN</strong> who has already built the network but is struggling to keep it fed with fresh, relevant content. A network without consistent content loses authority fast — this service solves that problem directly.
+          </p>
+        </div>
+      </section>
+
       {/* Request a Quote */}
       <section className="mb-16" id="request-a-quote">
         <div className="text-center mb-10">
